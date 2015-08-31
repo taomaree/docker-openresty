@@ -1,6 +1,5 @@
-nginx:
-  build: .
-  #container_name: nginx_1
+openresty:
+  images: taomaree/openresty
   environment:
     - TZ=Asia/Shanghai
     - APP_PORT=80
